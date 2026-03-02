@@ -4,7 +4,7 @@ A Claude Code skill that convenes historical thinkers for multi-perspective deli
 
 LLMs make you think they are smart, but when things get complex their reasoning can fall short. This council uses structured disagreement between diverse intellectual traditions to surface blind spots, challenge assumptions, and produce better decisions.
 
-## The 8 Council Members
+## The 11 Council Members
 
 | Agent | Figure | Domain | Model | Polarity |
 |-------|--------|--------|-------|----------|
@@ -16,6 +16,9 @@ LLMs make you think they are smart, but when things get complex their reasoning 
 | `council-machiavelli` | Machiavelli | Power dynamics & realpolitik | sonnet | How actors actually behave |
 | `council-lao-tzu` | Lao Tzu | Non-action & emergence | opus | When less is more |
 | `council-feynman` | Feynman | First-principles debugging | sonnet | Refuses unexplained complexity |
+| `council-torvalds` | Linus Torvalds | Pragmatic engineering | sonnet | Ship it or shut up |
+| `council-musashi` | Miyamoto Musashi | Strategic timing | sonnet | The decisive strike |
+| `council-watts` | Alan Watts | Perspective & reframing | opus | Dissolves false problems |
 
 ## Polarity Pairs
 
@@ -25,6 +28,8 @@ The members are chosen as deliberate counterweights:
 - **Aristotle vs Lao Tzu** — Aristotle classifies everything; Lao Tzu says structure IS the problem
 - **Sun Tzu vs Aurelius** — Sun Tzu wins external games; Aurelius governs the internal one
 - **Ada vs Machiavelli** — Ada abstracts toward formal purity; Machiavelli anchors in messy human incentives
+- **Torvalds vs Watts** — Torvalds ships concrete solutions; Watts questions whether the problem exists
+- **Musashi vs Torvalds** — Musashi waits for the perfect moment; Torvalds says ship it now
 
 ## Pre-defined Triads
 
@@ -38,6 +43,9 @@ The members are chosen as deliberate counterweights:
 | `conflict` | Socrates + Machiavelli + Aurelius | Expose + predict + ground |
 | `complexity` | Lao Tzu + Aristotle + Ada | Emergence + categories + formalism |
 | `risk` | Sun Tzu + Aurelius + Feynman | Threats + resilience + empirical verification |
+| `shipping` | Torvalds + Musashi + Feynman | Pragmatism + timing + first-principles |
+| `product` | Torvalds + Machiavelli + Watts | Ship it + incentives + reframing |
+| `founder` | Musashi + Sun Tzu + Torvalds | Timing + terrain + engineering reality |
 
 ## Usage
 
