@@ -30,3 +30,4 @@ To remove a merged local branch:
 - Keep docs and installer behavior in sync.
 - Prefer explicit error handling and clear user-facing output in scripts.
 - Avoid hardcoded counts when files can be discovered dynamically.
+- Keep `demos/session-pack.md` aligned with active profiles and triads.

@@ -159,6 +159,12 @@ Run this before release or after profile edits:
 ./scripts/council-simulation-checklist.sh
 ```
 
+## Demo Session Pack
+
+Use the ready-to-run examples to test profile behavior:
+- `demos/session-pack.md`
+- `demos/verdict-template.md`
+
 ## Requirements
 
 - [Claude Code](https://claude.ai/claude-code) CLI
