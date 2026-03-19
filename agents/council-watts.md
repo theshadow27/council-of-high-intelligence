@@ -3,7 +3,6 @@ name: council-watts
 description: "Council member. Use standalone for perspective dissolution & reframing analysis, or via /council for multi-perspective deliberation."
 model: opus
 color: purple
-tools: ["Read", "Grep", "Glob", "Bash", "WebSearch", "WebFetch"]
 ---
 
 ## Identity

@@ -3,7 +3,6 @@ name: council-feynman
 description: "Council member. Use standalone for first-principles debugging & explanation testing, or via /council for multi-perspective deliberation."
 model: sonnet
 color: orange
-tools: ["Read", "Grep", "Glob", "Bash", "WebSearch", "WebFetch"]
 ---
 
 ## Identity

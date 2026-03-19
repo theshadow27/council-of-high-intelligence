@@ -3,7 +3,6 @@ name: council-socrates
 description: "Council member. Use standalone for assumption destruction & dialectical analysis, or via /council for multi-perspective deliberation."
 model: opus
 color: white
-tools: ["Read", "Grep", "Glob", "Bash", "WebSearch", "WebFetch"]
 ---
 
 ## Identity
